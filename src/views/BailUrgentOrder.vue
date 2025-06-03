@@ -15,7 +15,7 @@
     <div style="padding-left:10px;padding-right:10px;height: 75vh;overflow: scroll">
     <main >
       <div id="map" class="map" style="display: none"></div>
-      <GoogleMap api-key="AIzaSyCxupdlf2THy6HbkYf33JTupUz14AP2plY" class="map_box" style="width: 100%; height: 400px;" :center="this.center" :zoom="12" >
+      <GoogleMap api-key="" class="map_box" style="width: 100%; height: 400px;" :center="this.center" :zoom="12" >
         <Marker :options="this.markerOptionspickup" />
         <Marker :options="this.markerOptionsdrop" />
       </GoogleMap>
@@ -23,7 +23,7 @@
 
       <!--      <GmapMap-->
       <!--          :center='center'-->
-      <!--          :zoom='12'-->
+      <!--          :zoom='12' :KEY"AIzaSyCxupdlf2THy6HbkYf33JTupUz14AP2plY"-->
       <!--          style='width:100%;  height: 400px;'-->
       <!--      />-->
       <div class="order-list" style="display: block;padding-top: 10px">
