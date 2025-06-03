@@ -1,0 +1,63 @@
+{
+  "name": "dlivrdonboard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "test:e2e": "playwright test",
+    "postinstall": "npm run build",
+    "serve-heroku": "vite --host 0.0.0.0 --port $PORT preview"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.1",
+    "@playwright/test": "^1.31.1",
+    "@videojs-player/vue": "^1.0.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "@vue/test-utils": "^2.3.0",
+    "axios": "^1.3.4",
+    "epic-spinners": "^2.0.0",
+    "jsdom": "^21.1.0",
+    "libphonenumber-js": "^1.10.26",
+    "mapbox-gl": "^2.14.1",
+    "material-design-icons-iconfont": "^6.7.0",
+    "pinia": "^2.0.32",
+    "unhead": "^1.1.26",
+    "video.js": "^8.0.4",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.1",
+    "vue": "^3.2.47",
+    "vue-datepicker-next": "^1.0.3",
+    "vue-gallery": "^2.0.5",
+    "vue-notification": "^1.3.20",
+    "vue-notification-bell": "^0.9.12",
+    "vue-recaptcha": "2.0.3",
+    "vue-router": "^4.1.6",
+    "vue-slide-unlock": "^0.4.8",
+    "vue-step-progress": "^1.0.2",
+    "vue3-google-map": "^0.15.0",
+    "vuejs-datetimepicker": "^1.1.13",
+    "vuetify": "^3.1.10",
+    "ws": "^8.14.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.31.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "@vue/test-utils": "^2.3.0",
+    "epic-spinners": "^2.0.0",
+    "jsdom": "^21.1.0",
+    "leaflet": "^1.9.4",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.1",
+    "vue-phone-number-input": "^1.12.13"
+  },
+  "engines": {
+    "node": "16.13.0",
+    "npm": "9.1.2"
+  }
+}

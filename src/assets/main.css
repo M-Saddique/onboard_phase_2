@@ -1,0 +1,118 @@
+@import './base.css';
+
+#app {
+  height: 100vh;
+  background-color: #F2F3F5;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  /*color: hsla(160, 100%, 37%, 1);*/
+  color: #0AFD01;
+  transition: 0.4s;
+}
+
+.text_header_color{
+  color: hsla(160, 100%, 37%, 1) !important;
+  color: #0AFD01 !important;
+  /*color: #000000 !important;*/
+  text-align: initial;
+}
+.fontSize{
+  font-weight: lighter !important;
+  /*font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;*/
+  /*font-family: Arial;*/
+}
+body{
+  font-size: 18px !important;
+  font-weight: normal !important;
+  font-family:  Sans-serif !important;
+}
+.v-selection-control{
+  color: white;
+}
+.Twilio-EntryPoint{
+  background-color: #0afd01 !important;
+}
+.btn_green{
+  text-decoration: none;
+  /*background-color: hsla(160, 100%, 37%, 1) !important;*/
+  background-color: #0AFD01 !important;
+  transition: 0.4s;
+  font-weight: bold;
+  color: white;
+}
+.v-field__overlay{
+  display: none;
+}
+.v-list-item__overlay{
+  background-color: #0AFD01 !important;
+}
+.loaderPlacement{
+  justify-content: center !important;
+  height: 100% !important;
+  align-items: center !important;
+}
+.btn_home_green{
+  width: 100px;
+  margin: 10px;
+  text-decoration: none;
+  /*background-color: hsla(160, 100%, 37%, 1) !important;*/
+  background-color: #0AFD01 !important;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.btn_green:hover{
+  text-decoration: none;
+  background-color: hsla(160, 100%, 37%, 1) !important;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.drawerStyle{
+  padding-top:10px !important;
+  top: 50px !important;
+  height: 100vh !important;
+  text-align: left;
+  width: 100px;
+}
+.adjustQuestions{
+  text-align: -moz-center;
+}
+.menuIcon{
+  margin-right: 15px;
+}
+.mainViewStyle{
+  height: 100vh;
+  overflow-y: scroll !important;
+}
+.dialogBoxError{
+  color:red;
+  padding-top: 0;
+}
+.dialogBoxGreenColor{
+  background-color: #0AFD01 !important;
+}
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+.mainblock{
+  height:100vh;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  background:linear-gradient(0deg, rgba(40, 44, 40, 0.73), rgba(40, 44, 40, 0.73)), url("../assets/dlivrd-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+@media (min-width: 700px) and (max-width: 1000px){
+  body{
+    font-size: 2vw !important;
+  }
+}
