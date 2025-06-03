@@ -23,7 +23,7 @@
 
       <!--      <GmapMap-->
       <!--          :center='center'-->
-      <!--          :zoom='12' :KEY"AIzaSyCxupdlf2THy6HbkYf33JTupUz14AP2plY"-->
+      <!--          :zoom='12' :KEY""-->
       <!--          style='width:100%;  height: 400px;'-->
       <!--      />-->
       <div class="order-list" style="display: block;padding-top: 10px">
